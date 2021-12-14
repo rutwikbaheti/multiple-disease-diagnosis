@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../static/css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    <nav class="light-blue lighten-1" role="navigation">
+        <div class="nav-wrapper container">
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#">{{user}}</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    <div class="container">
+        <br><br>
+        <h1 class="header center orange-text">Find Doctors</h1>
+        <div class="row center">
+    <div class="col s12">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="/static/images/m_doc_icon.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <!-- <p>I am a very simple card. I am good at containing small bits of information.</p> -->
+              <h5 style="text-align: left;"><b>Name : {{doc_1_name}}</b></h5>
+              <p style="text-align: left;"><b>{{doc_1_qualification}}</b></p>
+              <p style="text-align: left;"><b>Specialization : </b>{{doc_1_specialization}}</p>
+              <p style="text-align: left;"><b>Experience : </b>{{doc_1_exp}} Years</b></p>
+              <p style="text-align: left;">{{doc_1_info}}</p>
+            </div>
+            <div class="card-action">
+                <div class="row center">
+                    <button type="button" class="btn-large waves-effect waves-light orange" onclick="window.location.href='{{doc_1_appoinment}}'">Book an Appointment</button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="/static/images/f_doc_icon.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <!-- <p>I am a very simple card. I am good at containing small bits of information.</p> -->
+              <h5 style="text-align: left;"><b>Name : {{doc_2_name}}</b></h5>
+              <p style="text-align: left;"><b>{{doc_2_qualification}}</b></p>
+              <p style="text-align: left;"><b>Specialization : </b>{{doc_2_specialization}}</p>
+              <p style="text-align: left;"><b>Experience : </b>{{doc_2_exp}} Years</b></p>
+              <p style="text-align: left;">{{doc_2_info}}</p>
+            </div>
+            <div class="card-action">
+                <div class="row center">
+                    <button type="button" class="btn-large waves-effect waves-light orange" onclick="window.location.href='{{doc_2_appoinment}}'">Book an Appointment</button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="/static/images/m_doc_icon.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <!-- <p>I am a very simple card. I am good at containing small bits of information.</p> -->
+              <h5 style="text-align: left;"><b>Name : {{doc_3_name}}</b></h5>
+              <p style="text-align: left;"><b>{{doc_3_qualification}}</b></p>
+              <p style="text-align: left;"><b>Specialization : </b>{{doc_3_specialization}}</p>
+              <p style="text-align: left;"><b>Experience : </b>{{doc_3_exp}} Years</b></p>
+              <p style="text-align: left;">{{doc_3_info}}</p>
+            </div>
+            <div class="card-action">
+                <div class="row center">
+                    <button type="button" class="btn-large waves-effect waves-light orange" onclick="window.location.href='{{doc_3_appoinment}}'">Book an Appointment</button>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    
+      <footer class="page-footer orange">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Company Bio</h5>
+              <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+    
+    
+            </div>
+            <div class="col l3 s12">
+              <h5 class="white-text">Settings</h5>
+              <ul>
+                <li><a class="white-text" href="#!">Link 1</a></li>
+                <li><a class="white-text" href="#!">Link 2</a></li>
+                <li><a class="white-text" href="#!">Link 3</a></li>
+                <li><a class="white-text" href="#!">Link 4</a></li>
+              </ul>
+            </div>
+            <div class="col l3 s12">
+              <h5 class="white-text">Connect</h5>
+              <ul>
+                <li><a class="white-text" href="#!">Link 1</a></li>
+                <li><a class="white-text" href="#!">Link 2</a></li>
+                <li><a class="white-text" href="#!">Link 3</a></li>
+                <li><a class="white-text" href="#!">Link 4</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+          </div>
+        </div>
+      </footer>  
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="../static/js/materialize.min.js"></script>
+  </body>
+</html>
+
